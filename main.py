@@ -12,7 +12,7 @@ def read():
 
 
 sys = Tk()
-sys.configure(background="black")
+sys.configure(background="#000")
 sys.title("Text to speech")
 label = StringVar()
 int_label = Label(sys, text="Type to get started",font=("fantasy",18),fg="#2fa4e7",pady=15,padx=5)
